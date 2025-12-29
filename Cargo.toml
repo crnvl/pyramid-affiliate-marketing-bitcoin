@@ -1,0 +1,15 @@
+[package]
+name = "c3pixelflut"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.95"
+async-ffmpeg-sidecar = "0.0.2"
+clap = { version = "4.5.23", features = ["derive"] }
+ffmpeg-sidecar = "2.0.6"
+hsl = "0.1.1"
+image = "0.25.5"
+ndarray = "0.16.1"
+rand = "0.9.1"
+tokio = { version = "1.42.0", features = ["full", "rt-multi-thread"] }
